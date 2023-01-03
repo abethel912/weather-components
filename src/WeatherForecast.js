@@ -1,7 +1,6 @@
 import React from 'react'
 import './styles.css'
 
-
 function WeatherForecast(props) {
   const item = props.data
   console.log('weather data', props)
@@ -17,10 +16,6 @@ function WeatherForecast(props) {
       </div>
     </>
   )
-};
-      
+}
 
-
-export default WeatherForecast;
-        
-        // <img className="Image" src={props.data.img} alt="" />
+export default WeatherForecast
